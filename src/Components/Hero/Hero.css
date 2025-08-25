@@ -1,0 +1,58 @@
+.section-three {
+  background: linear-gradient(rgba(74, 6, 119, 1), rgba(212, 117, 9, 0.63));
+}
+.card {
+  height: 571px;
+  width: 510px;
+  border-radius: 68px;
+  background: rgba(233, 222, 229, 1);
+  flex: 1 1 calc(33.3% - 20px);
+}
+.igcse-subs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-inline: 32px;
+}
+.h-three-card {
+  color: rgba(78, 89, 107, 1);
+  font-size: 25px;
+  font-style: Semibold;
+  font-weight: 600;
+}
+.p-three-card {
+  color: rgba(78, 89, 107, 1);
+  font-size: 14px;
+  font-style: Medium;
+  font-weight: 500;
+}
+.p-three-para {
+  color: rgba(78, 89, 107, 1);
+  margin-left: 32px;
+  margin-top: 20px;
+  font-size: 13px;
+  font-style: Medium;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+.a-section-three {
+  text-align: center;
+}
+
+.vc {
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 20px;
+
+  background: linear-gradient(rgba(51, 19, 139, 1), rgba(127, 86, 217, 1));
+  text-align: center;
+  border-radius: 68px;
+  padding: 20px 40px;
+}
+.flex-two {
+  display: flex;
+  background: rgba(76, 43, 148, 0.44);
+  margin: 30px;
+  padding: 30px;
+  gap: 20px;
+}

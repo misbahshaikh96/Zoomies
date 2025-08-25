@@ -1,0 +1,19 @@
+.tutorials {
+  color: rgba(222, 124, 6, 0.98);
+  font-size: 45px;
+  font-style: Bold;
+  font-weight: 700;
+}
+.p-two {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+  color: rgba(115, 76, 204, 1);
+}
+.h-p {
+  text-align: center;
+  margin-top: 50px;
+}
+.video {
+  margin-left: 150px;
+}
