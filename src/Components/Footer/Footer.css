@@ -1,0 +1,39 @@
+.footer {
+  background: rgba(55, 10, 106, 1);
+}
+.flex-six {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.img-foot {
+  width: 158px;
+  height: 106px;
+  margin-left: 149px;
+  margin-bottom: 15px;
+}
+.p-footer {
+  margin-left: 169px;
+}
+.flex-sub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.link {
+  flex: 1 1 calc(50% - 20px);
+  text-decoration: none;
+}
+.p-t {
+  display: flex;
+  justify-content: space-between;
+}
+.e-t {
+  display: flex;
+  justify-content: space-between;
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+}

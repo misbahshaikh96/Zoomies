@@ -1,12 +1,20 @@
 .section-three {
-  background: linear-gradient(rgba(74, 6, 119, 1), rgba(212, 117, 9, 0.63));
+  background: linear-gradient(
+    180deg,
+    rgba(212, 117, 9, 0.63) 27.64%,
+    #4a0677 85.39%,
+
+    rgba(255, 255, 255, 0.815) 127.78%
+  );
+
+  padding-bottom: 40px;
 }
 .card {
   height: 571px;
   width: 510px;
   border-radius: 68px;
   background: rgba(233, 222, 229, 1);
-  flex: 1 1 calc(33.3% - 20px);
+  flex: 1 1 calc(33.3% - 30px);
 }
 .igcse-subs {
   display: flex;
@@ -52,7 +60,19 @@
 .flex-two {
   display: flex;
   background: rgba(76, 43, 148, 0.44);
-  margin: 30px;
-  padding: 30px;
-  gap: 20px;
+
+  margin: 40px;
+  padding: 50px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.h-three {
+  color: rgba(95, 50, 147, 1);
+  text-align: center;
+  font-size: 45px;
+  font-style: Semibold;
+  font-weight: 600;
+  padding-top: 80px;
+  line-height: 0px;
+  margin-top: 40px;
 }
