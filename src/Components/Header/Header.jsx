@@ -7,7 +7,7 @@ export default function Header() {
       <nav>
         <div className="logo-nav-li">
           <div className="logo">
-            <img className="logo-zomies" src={"./logo.svg"} alt="" />
+            <img className="logo-zomies" src={"./twitter.svg"} alt="" />
           </div>
           <div className="nav-li">
             <ul>
