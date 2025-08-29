@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="nav-section">
       <nav>
@@ -9,7 +10,19 @@ export default function Header() {
           <div className="logo">
             <img className="logo-zomies" src={"./twitter.svg"} alt="" />
           </div>
-          <div className="nav-li">
+
+          {/* hamburger */}
+          <div
+            className="hamburger"
+            onClick={() => setIsOpen(!isOpen)}
+            id="hamburger"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          {/* <div className="nav-li"> */}
+          <div className={`nav-li ${isOpen ? "show" : ""}`}>
             <ul>
               <li>
                 <a href="">Home</a>
@@ -45,7 +58,7 @@ export default function Header() {
               <button className="gfc">Get Free Coupons</button>
             </div>
           </div>
-          <div className="img">
+          <div className="img-bulb">
             <img src={"./zomies-books.png"} alt="" />
           </div>
         </div>

@@ -51,3 +51,18 @@
 .slick-next {
   display: none !important;
 }
+@media (max-width: 786px) {
+  .section-two {
+    width: 100%;
+  }
+  .slick-slide img {
+    width: 80%;
+  }
+  .tutorials {
+    font-size: 30px;
+  }
+  .p-two {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

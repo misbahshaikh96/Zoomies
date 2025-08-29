@@ -110,3 +110,54 @@ ul li a {
   padding-bottom: 40px;
   margin-left: 300px;
 }
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+}
+
+/* mobile view */
+@media (max-width: 786px) {
+  .hamburger {
+    display: flex;
+  }
+  .nav-li {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: #333;
+    flex-direction: column;
+    width: 150px;
+    padding: 1rem;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-chair {
+    margin-left: 100px;
+    width: 500px;
+  }
+  .img-bulb {
+    margin-left: 100px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 1024) {
+}
+
+@media (max-width: 1280) {
+}
+
+@media (max-width: 1536) {
+}
